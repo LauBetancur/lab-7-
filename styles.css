@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #0084ff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .conteiner {
+    margin-top: 1.5rem;
+  
+    border-radius: 30px;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #task-list {
+    border-radius: 30px;
+    width: 28vw;
+    height: 65vh;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 28vw;
+    border-radius: 30px;
+    padding: 0.1rem;
+    padding-left: 0.3rem;
+    background-color: #eaebec;
+  }
+  
+  .task-status {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  #task-stats {
+    border-radius: 30px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    background-color: #0084ff;
+    color: #ffffff;
+  }
+  .pending {
+    color: red;
+  }
+  .completed {
+    color: rgb(123, 123, 123);
+    text-decoration: line-through; /* Tachar el texto de las tareas completadas */
+  }
+  
+  .pending {
+    color: #0084ff;
+  }
+  
+  .complete-btn {
+    cursor: pointer;
+    background-color: #a2cfff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Eliminar el borde */
+    border-radius: 50%; /* Hacer el botón redondo */
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    display: flex; /* Utilizar flexbox para centrar el contenido verticalmente */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    margin-left: 10px; /* Añadir espacio entre los botones */
+  }
+  .completeBtn.completed {
+    background-color: #28a745;
+  }
+  
+  .complete-btn:hover {
+    background-color: rgb(102, 36, 164);
+  }
+  
+    
